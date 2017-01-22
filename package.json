@@ -1,0 +1,22 @@
+{
+    "name": "badjoras-theme",
+    "displayName": "badjoras",
+    "description": "Yet another theme",
+    "version": "0.0.1",
+    "publisher": "afnpires",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Badjoras",
+                "uiTheme": "vs-dark",
+                "path": "./themes/badjoras.tmTheme"
+            }
+        ]
+    }
+}
