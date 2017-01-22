@@ -291,7 +291,18 @@
           <string>#C5C8C6</string>
         </dict>
       </dict>
-      <!-- MARKDOWN
+      <!-- MARKDOWN -->
+      <dict>
+        <key>name</key>
+        <string>Headings</string>
+        <key>scope</key>
+        <string>markdown.paragraph</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
         <string>Headings</string>
@@ -355,7 +366,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d19a66</string>
+          <string>#DE935F</string>
         </dict>
       </dict>
       <dict>
@@ -366,7 +377,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d19a66</string>
+          <string>#DE935F</string>
+          <key>fontStyle</key>
+          <string>bold</string>
         </dict>
       </dict>
       <dict>
@@ -378,6 +391,8 @@
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <dict>
@@ -417,11 +432,11 @@
         <key>name</key>
         <string>Link Url</string>
         <key>scope</key>
-        <string>meta.link</string>
+        <string>markdown.detected-link</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#87CEFA</string>
         </dict>
       </dict>
       <dict>
@@ -432,7 +447,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#DF6A73</string>
+          <string>#CC6666</string>
         </dict>
       </dict>
       <dict>
@@ -476,7 +491,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#c678dd</string>
+          <string>#B294BB</string>
         </dict>
       </dict>
       <dict>
@@ -487,12 +502,12 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#5c6370</string>
+          <string>#C5C8C6</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
       </dict>
-      MARKDOWN:END -->
+      <!-- MARKDOWN:END -->
       <!-- XML/HTML -->
       <dict>
         <key>name</key>
