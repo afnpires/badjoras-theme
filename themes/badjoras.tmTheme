@@ -53,7 +53,7 @@
         <key>name</key>
         <string>Operators</string>
         <key>scope</key>
-        <string>keyword.operator</string>
+        <string>meta.keyword.operator, meta.keyword.operator.logical, meta.keyword.operator.ternary</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
