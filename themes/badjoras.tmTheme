@@ -97,7 +97,7 @@
         <key>name</key>
         <string>Functions</string>
         <key>scope</key>
-        <string>entity.name.function, meta.require, support.function.any-method, keyword.other.special-method</string>
+        <string>entity.name.function, meta.entity.name.type.function, meta.require, support.function.any-method, keyword.other.special-method</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -807,6 +807,7 @@
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
+          <string>#DE935F</string>
         </dict>
       </dict>
       <dict>
@@ -824,7 +825,7 @@
         <key>name</key>
         <string>JS TS module</string>
         <key>scope</key>
-        <string>token.entity.name.type.class.module</string>
+        <string>token.entity.name.type.class.module, meta.entity.name.type.function.module</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
