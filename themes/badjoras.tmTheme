@@ -807,7 +807,6 @@
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
-          <string>#DE935F</string>
         </dict>
       </dict>
       <dict>
@@ -840,7 +839,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#20B2AA</string>
+          <string>#F0C674</string>
         </dict>
       </dict>
       <dict>
@@ -851,7 +850,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#20B2AA</string>
+          <string>#F0C674</string>
         </dict>
       </dict>
       <dict>
