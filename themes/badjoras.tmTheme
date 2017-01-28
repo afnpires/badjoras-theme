@@ -29,7 +29,7 @@
         <key>name</key>
         <string>Comments</string>
         <key>scope</key>
-        <string>comment, punctuation.definition.comment</string>
+        <string>comment, punctuation.definition.comment, token.meta.structure.dictionary.punctuation.comment, token.meta.structure.dictionary.comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
