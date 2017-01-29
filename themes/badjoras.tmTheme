@@ -64,7 +64,7 @@
         <key>name</key>
         <string>Keywords</string>
         <key>scope</key>
-        <string>keyword, meta.this, constant.boolean, token.meta.primitive, keyword.control, token.package.keyword, storage, token.storage, token.storage, token.keyword.new, meta.null, meta.undefined</string>
+        <string>keyword, meta.this, constant.boolean, token.meta.primitive, keyword.control, token.package.keyword, storage, token.storage, token.storage, token.keyword.new, meta.null, meta.undefined, meta.keyword.delete</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
