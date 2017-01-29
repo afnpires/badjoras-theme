@@ -769,6 +769,28 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
+        <string>token.meta.ts.decorator.entity.name.function.member</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B294BB</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>token.meta.ts.punctuation.decorator.comma</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
         <string>token.meta.ts.punctuation.decorator.objectliteral.block</string>
         <key>settings</key>
         <dict>
