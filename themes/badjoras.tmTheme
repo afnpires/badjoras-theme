@@ -575,6 +575,63 @@
           <string>#D2945D</string>
         </dict>
       </dict>
+      <!-- GIT Commit -->
+      <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>comment.line.number-sign.git-commit, punctuation.definition.comment.git-commit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6370</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>meta.scope.subject.git-commit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>invalid.illegal.line-too-long.git-commit, markup.deleted.git-commit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>markup.changed.git-commit, invalid.deprecated.line-too-long.git-commit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DE935F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>comment</string>
+        <key>scope</key>
+        <string>markup.inserted.git-commit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00B058</string>
+        </dict>
+      </dict>
+      <!-- GIT Commit: END>
       <!-- REGEX -->
       <dict>
         <key>name</key>
