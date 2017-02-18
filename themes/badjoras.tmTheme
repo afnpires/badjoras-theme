@@ -108,11 +108,24 @@
         <key>name</key>
         <string>Classes</string>
         <key>scope</key>
-        <string>entity.name.type.namespace, entity.name.type.class, entity.name.class.identifier.namespace.type, entity.other.inherited-class, meta.support.builtin</string>
+        <string>entity.name.type.namespace, entity.name.type.class, entity.name.class.identifier.namespace.type, meta.support.builtin</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Classes</string>
+        <key>scope</key>
+        <string>entity.other.inherited-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <dict>
@@ -366,7 +379,7 @@
         <key>name</key>
         <string>brace function</string>
         <key>scope</key>
-        <string>markup.quote.markdown, punctuation.definition.metadata.markdown</string>
+        <string>markup.quote.markdown, markup.quote.markdown meta.paragraph.markdown, punctuation.definition.metadata.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -626,6 +639,143 @@
       <!-- Typescript/Javascript -->
       <dict>
         <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.decorator.ts, meta.decorator.ts entity.name.function.ts, constant.language.import-export-all.ts, keyword.operator.type.annotation.ts, keyword.operator.assignment.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DE935F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.brace.round.ts, string.template.ts punctuation.accessor.ts, meta.decorator.ts meta.object-literal.key.ts, meta.decorator.ts meta.brace.square.ts, meta.decorator.ts punctuation.definition.block.ts, meta.decorator.ts punctuation.separator.comma.ts, meta.decorator.ts punctuation.accessor.ts, cast.expr.ts punctuation.accessor.ts, cast.expr.ts meta.brace.square.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>cast.expr.ts, keyword.operator.optional.ts, keyword.operator.logical.ts, keyword.operator.assignment.compound.ts, punctuation.separator.key-value.ts, keyword.operator.ternary.ts, storage.type.function.arrow.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, keyword.operator.relational.ts, keyword.operator.comparison.ts, keyword.operator.arithmetic.ts, keyword.operator.increment.ts, keyword.operator.type.ts, storage.type.class.jsdoc, keyword.operator.spread.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DE935F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>support.type.primitive.ts, variable.language.super.ts, constant.language.boolean.true.ts, constant.language.boolean.false.ts, constant.language.null.ts, constant.language.undefined.ts, variable.language.this.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4271AE</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.class.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts variable.other.readwrite.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.class.ts entity.name.type.ts, meta.class.ts variable.other.readwrite.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>variable.parameter.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>variable.other.constant.ts, variable.other.constant.property.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.decorator.ts meta.object.member.ts entity.name.function.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B294BB</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts, meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts, support.class.builtin.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.objectliteral.ts meta.array.literal.ts variable.other.object.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#20B2AA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.var.expr.ts meta.var-single-variable.expr.ts variable.other.readwrite.ts, meta.class.ts meta.var.expr.ts variable.other.readwrite.ts, meta.class.ts meta.block.ts variable.other.readwrite.ts, meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.object.ts, meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts, new.expr.ts meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+
+
+
+      <!--<dict>
+        <key>name</key>
         <string>import all</string>
         <key>scope</key>
         <string>token.import.import-export-all</string>
@@ -854,7 +1004,7 @@
           <key>foreground</key>
           <string>#87CEFA</string>
         </dict>
-      </dict>
+      </dict>-->
       <!-- Typescript/javascript:END -->
       <!-- css -->
       <dict>
