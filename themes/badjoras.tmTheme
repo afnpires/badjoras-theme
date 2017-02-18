@@ -513,6 +513,72 @@
         <key>name</key>
         <string>Element tag</string>
         <key>scope</key>
+        <string>entity.name.tag.localname.xml, entity.name.tag.xml, entity.name.tag.html, meta.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>tag</string>
+        <key>scope</key>
+        <string>punctuation.definition.tag.xml, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.tag.block.any.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>text.html.basic, text.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>punctuation.definition.entity.html, constant.character.entity.html, constant.character.entity.xml, punctuation.definition.constant.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4271AE</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>entity.name.tag.namespace.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4271AE</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>punctuation.separator.namespace.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D2945D</string>
+        </dict>
+      </dict>
+      <!--<dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
         <string>token.tag.entity, token.tag sgml</string>
         <key>settings</key>
         <dict>
@@ -563,7 +629,7 @@
           <key>foreground</key>
           <string>#87CEFA</string>
         </dict>
-      </dict>
+      </dict>-->
       <!-- XML/HTML:END -->
       <!-- REGEX -->
       <dict>
@@ -675,7 +741,6 @@
       </dict>
       <!-- REGEX:END -->
       <!-- JSON -->
-
       <dict>
         <key>name</key>
         <string>JSON ponctuation</string>
