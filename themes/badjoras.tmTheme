@@ -675,11 +675,23 @@
       </dict>
       <!-- REGEX:END -->
       <!-- JSON -->
+
       <dict>
         <key>name</key>
-        <string>Json key</string>
+        <string>JSON ponctuation</string>
         <key>scope</key>
-        <string>source.json,meta.structure.dictionary.json,string.quoted.double.json</string>
+        <string>punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.begin.json, punctuation.separator.dictionary.pair.json, punctuation.definition.dictionary.end.json, punctuation.definition.array.begin.json, punctuation.definition.array.end.json, punctuation.separator.array.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON key</string>
+        <key>scope</key>
+        <string>punctuation.support.type.property-name.begin.json, support.type.property-name.json, punctuation.support.type.property-name.end.json</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -688,9 +700,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Json value</string>
+        <string>JSON value</string>
         <key>scope</key>
-        <string>structure.dictionary.json.value</string>
+        <string>punctuation.definition.string.begin.json, punctuation.definition.string.end.json, string.quoted.double.json</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -699,46 +711,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>json quote begin,end</string>
+        <string>JSON constants</string>
         <key>scope</key>
-        <string>token.structure.dictionary.json.punctuation.begin.string.double,token.structure.dictionary.json.punctuation.end.string.double</string>
+        <string>constant.language.json</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00B058</string>
+          <string>#4271AE</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Json link</string>
+        <string>JSON key-value separator</string>
         <key>scope</key>
-        <string>structure.dictionary.json.detected-link</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#87CEFA</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Json punctuation</string>
-        <key>scope</key>
-        <string>structure.dictionary.json.punctuation</string>
+        <string>punctuation.separator.dictionary.key-value.json</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>json property name</string>
-        <key>scope</key>
-        <string>structure.dictionary.json.property-name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#CC6666</string>
         </dict>
       </dict>
       <!-- JSON: END -->
