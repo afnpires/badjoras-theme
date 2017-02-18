@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [x.x.x] = 2017/02/18
+### Changed
+- link to marketplace in README file
+
 ## [0.2.0] - 2017/01/28
 - Fix ternary operators coloring
 - Fix coloring of comments inside json body
@@ -15,7 +19,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Fix javascript/Typescript decorator object parameter coloring
 
 ## [0.1.1] - 2017/01/22
-## Changed
+### Changed
 - Changelog format according to [Keep a Changelog](http://keepachangelog.com/)
 
 ## [0.1.0] - 2017/01/22

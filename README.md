@@ -1,4 +1,4 @@
-# Badjoras Theme
+# [Badjoras Theme](https://marketplace.visualstudio.com/items?itemName=afnpires.badjoras-theme)
 
 ## Screenshots
 
