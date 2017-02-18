@@ -722,6 +722,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>JSON constants numeric</string>
+        <key>scope</key>
+        <string>constant.numeric.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>JSON key-value separator</string>
         <key>scope</key>
         <string>punctuation.separator.dictionary.key-value.json</string>
