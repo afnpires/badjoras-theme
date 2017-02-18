@@ -294,86 +294,22 @@
       <!-- MARKDOWN -->
       <dict>
         <key>name</key>
-        <string>Headings</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>markdown.paragraph</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Headings</string>
-        <key>scope</key>
-        <string>markup.heading.entity.name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#4271AE</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Markdown Token Heading</string>
-        <key>scope</key>
-        <string>markup.heading punctuation.definition.heading.markdown</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#4271AE</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Markdown punctuation begin and end</string>
-        <key>scope</key>
-        <string>markdown.punctuation.link.begin,markdown.punctuation.link.end</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Markdown Link title</string>
-        <key>scope</key>
-        <string>markdown.link.title.string</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#B294BB</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Headings</string>
-        <key>scope</key>
-        <string>markup.heading punctuation.definition.heading, entity.name.section</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#B294BB</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Units</string>
-        <key>scope</key>
-        <string>keyword.other.unit</string>
+        <string>markup.italic.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Bold</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>markup.bold, punctuation.definition.bold, strong md</string>
+        <string>markup.bold.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -384,66 +320,20 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Italic</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>markup.italic, punctuation.definition.italic, emphasis md</string>
+        <string>fenced_code.block.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#DE935F</string>
-          <key>fontStyle</key>
-          <string>italic</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Monospace Markdown</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>variable md</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Keyword Markdown</string>
-        <key>scope</key>
-        <string>keyword md</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#4271AE</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Code</string>
-        <key>scope</key>
-        <string>markup.raw.inline</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Link Url</string>
-        <key>scope</key>
-        <string>markdown.detected-link</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#87CEFA</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Lists</string>
-        <key>scope</key>
-        <string>markup.list.punctuation.definition</string>
+        <string>meta.separator.markdown, markup.inline.raw.markdown, markup.fenced_code.block.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -452,59 +342,57 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Quotes</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>markup.quote</string>
+        <string>markup.heading.${1/(#)(#)?(#)?(#)?(#)?(#)?/${6:?6:${5:?5:${4:?4:${3:?3:${2:?2:1}}}}}/}.markdown, beginning.punctuation.definition.list.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#D2945D</string>
+          <string>#4271AE</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Inserted</string>
+        <string>brace function</string>
         <key>scope</key>
-        <string>markup.inserted</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Deleted</string>
-        <key>scope</key>
-        <string>markup.deleted</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DF6A73</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Changed</string>
-        <key>scope</key>
-        <string>markup.changed</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#B294BB</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Markdown Quote</string>
-        <key>scope</key>
-        <string>markdown.markup.quote</string>
+        <string>meta.paragraph.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#C5C8C6</string>
-          <key>fontStyle</key>
-          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>brace function</string>
+        <key>scope</key>
+        <string>markup.quote.markdown, punctuation.definition.metadata.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>brace function</string>
+        <key>scope</key>
+        <string>meta.link.inline.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#87CEFA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>brace function</string>
+        <key>scope</key>
+        <string>string.other.link.title.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00B058</string>
         </dict>
       </dict>
       <!-- MARKDOWN:END -->
@@ -666,113 +554,6 @@
           <string>#F0C674</string>
         </dict>
       </dict>
-      <!--<dict>
-        <key>name</key>
-        <string>Regular Expressions</string>
-        <key>scope</key>
-        <string>regex.begin, regex.end</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Regular Expressions</string>
-        <key>scope</key>
-        <string>string.regexp</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Regular Expressions</string>
-        <key>scope</key>
-        <string>operator.block.regexp.quantifier, regexp.character-class</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F0C674</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Escape Characters</string>
-        <key>scope</key>
-        <string>constant.character.escape</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Embedded</string>
-        <key>scope</key>
-        <string>punctuation.section.embedded, variable.interpolation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Illegal</string>
-        <key>scope</key>
-        <string>invalid.illegal</string>
-        <key>settings</key>
-        <dict>
-          <key>background</key>
-          <string>#e05252</string>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Broken</string>
-        <key>scope</key>
-        <string>invalid.broken</string>
-        <key>settings</key>
-        <dict>
-          <key>background</key>
-          <string>#e05252</string>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Deprecated</string>
-        <key>scope</key>
-        <string>invalid.deprecated</string>
-        <key>settings</key>
-        <dict>
-          <key>background</key>
-          <string>#d27b53</string>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Unimplemented</string>
-        <key>scope</key>
-        <string>invalid.unimplemented</string>
-        <key>settings</key>
-        <dict>
-          <key>background</key>
-          <string>#747369</string>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>-->
       <!-- REGEX:END -->
       <!-- JSON -->
       <dict>
