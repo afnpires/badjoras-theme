@@ -575,44 +575,12 @@
           <string>#D2945D</string>
         </dict>
       </dict>
-      <!--<dict>
-        <key>name</key>
-        <string>Element tag</string>
-        <key>scope</key>
-        <string>token.tag.entity, token.tag sgml</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#CC6666</string>
-        </dict>
-      </dict>
+      <!-- REGEX -->
       <dict>
         <key>name</key>
-        <string>Element tag</string>
+        <string>Regular Expressions</string>
         <key>scope</key>
-        <string>token.tag.attribute-name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Element tag</string>
-        <key>scope</key>
-        <string>token.tag sgml.punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>HTML Token Strings</string>
-        <key>scope</key>
-        <string>token.string.html</string>
+        <string>punctuation.definition.string.begin.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -621,18 +589,27 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>token string detected-link</string>
+        <string>Regular Expressions</string>
         <key>scope</key>
-        <string>token.string.detected-link.html</string>
+        <string>punctuation.definition.character-class.regexp, keyword.control.anchor.regexp, constant.character.escape.backslash.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, punctuation.definition.group.regexp</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#87CEFA</string>
+          <string>#DE935F</string>
         </dict>
-      </dict>-->
-      <!-- XML/HTML:END -->
-      <!-- REGEX -->
+      </dict>
       <dict>
+        <key>name</key>
+        <string>Regular Expressions</string>
+        <key>scope</key>
+        <string>constant.other.character-class.range.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <!--<dict>
         <key>name</key>
         <string>Regular Expressions</string>
         <key>scope</key>
@@ -738,7 +715,7 @@
           <key>foreground</key>
           <string>#FFFFFF</string>
         </dict>
-      </dict>
+      </dict>-->
       <!-- REGEX:END -->
       <!-- JSON -->
       <dict>
