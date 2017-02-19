@@ -549,7 +549,7 @@
         <key>name</key>
         <string>Regular Expressions</string>
         <key>scope</key>
-        <string>punctuation.definition.character-class.regexp, keyword.control.anchor.regexp, constant.character.escape.backslash.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, punctuation.definition.group.regexp</string>
+        <string>keyword.operator.or.regexp, punctuation.definition.character-class.regexp, keyword.control.anchor.regexp, constant.character.escape.backslash.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, punctuation.definition.group.regexp</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -636,7 +636,7 @@
         </dict>
       </dict>
       <!-- JSON: END -->
-      <!-- Typescript/Javascript -->
+      <!-- Typescript -->
       <dict>
         <key>name</key>
         <string>typescript decorator</string>
@@ -771,14 +771,35 @@
           <string>#C5C8C6</string>
         </dict>
       </dict>
-
-
-
-      <!--<dict>
+      <dict>
         <key>name</key>
-        <string>import all</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.import.import-export-all</string>
+        <string>string.template.ts constant.character.escape.ts, string.quoted.single.ts constant.character.escape.ts, string.quoted.double.ts constant.character.escape.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>support.variable.object.node.ts, support.type.object.module.ts, support.class.console.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <!-- Typescript:END -->
+      <!-- javascript -->
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.decorator.js, meta.decorator.js entity.name.function.js, constant.language.import-export-all.js, keyword.operator.type.annotation.js, keyword.operator.assignment.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -789,7 +810,18 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.meta.ts.decorator.entity.name.function, token.meta.ts.punctuation.decorator</string>
+        <string>meta.brace.round.js, string.template.js punctuation.accessor.js, meta.decorator.js meta.object-literal.key.js, meta.decorator.js meta.brace.square.js, meta.decorator.js punctuation.definition.block.js, meta.decorator.js punctuation.separator.comma.js, meta.decorator.js punctuation.accessor.js, cast.expr.js punctuation.accessor.js, cast.expr.js meta.brace.square.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.tag.js punctuation.definition.block.js, meta.tag.js punctuation.section.embedded.begin.js, meta.tag.js punctuation.section.embedded.end.js, cast.expr.js, keyword.operator.optional.js, keyword.operator.logical.js, keyword.operator.assignment.compound.js, punctuation.separator.key-value.js, keyword.operator.ternary.js, storage.type.function.arrow.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, keyword.operator.relational.js, keyword.operator.comparison.js, keyword.operator.arithmetic.js, keyword.operator.increment.js, keyword.operator.type.js, storage.type.class.jsdoc, keyword.operator.spread.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -800,7 +832,64 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.meta.ts.decorator.entity.name.function.member</string>
+        <string>support.type.primitive.js, variable.language.super.js, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.js, constant.language.undefined.js, variable.language.this.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4271AE</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.var.expr.js variable.other.object.js, meta.tag.js keyword.operator.assignment.js, meta.class.js meta.block.js meta.objectliteral.js meta.object.member.js meta.array.literal.js variable.other.readwrite.js, meta.var.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.export.default.js variable.other.readwrite.js, entity.name.tag.js, variable.other.object.js, meta.class.js entity.name.type.js, entity.name.type.js, meta.class.js variable.other.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>variable.parameter.js, support.variable.property.dom.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>variable.other.constant.js, variable.other.constant.property.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.decorator.js meta.object.member.js entity.name.function.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -811,73 +900,7 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.meta.ts.punctuation.decorator.comma</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>typescript decorator</string>
-        <key>scope</key>
-        <string>token.meta.ts.punctuation.decorator.objectliteral.block</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>typescript decorator</string>
-        <key>scope</key>
-        <string>token.meta.ts.punctuation.decorator.objectliteral.string</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>block scope</string>
-        <key>scope</key>
-        <string>block.scope.end,block.scope.begin</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>arrow method</string>
-        <key>scope</key>
-        <string>token.function.class.storage.type.arrow</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>JS TS Key-value operator</string>
-        <key>scope</key>
-        <string>separator.object.key-value.js,separator.object.key-value.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>JS TS module object</string>
-        <key>scope</key>
-        <string>, meta.entity.type.object</string>
+        <string>meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js, meta.objectliteral.js meta.array.literal.js variable.other.property.js, support.class.builtin.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -886,9 +909,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>JS TS module</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.entity.name.type.class.module, meta.entity.name.type.function.module, meta.entity.type.object.module</string>
+        <string>meta.objectliteral.js meta.array.literal.js variable.other.object.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -897,115 +920,38 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>JS and TS dom variable</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.js.variable.dom,token.ts.variable.dom</string>
+        <string>string.template.js constant.character.escape.js, string.quoted.single.js constant.character.escape.js, string.quoted.double.js constant.character.escape.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>meta.var.expr.js meta.var-single-variable.expr.js variable.other.readwrite.js, meta.class.js meta.var.expr.js variable.other.readwrite.js, meta.class.js meta.block.js variable.other.readwrite.js, meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.object.js, meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.property.js, new.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>support.variable.object.node.js, support.type.object.module.js, support.class.console.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#F0C674</string>
         </dict>
       </dict>
-      <dict>
-        <key>name</key>
-        <string>JS and TS dom property</string>
-        <key>scope</key>
-        <string>token.js.variable.dom.property,token.ts.variable.dom.property</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F0C674</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>token variable readwrite js ts</string>
-        <key>scope</key>
-        <string>token.readwrite.variable.js,token.readwrite.variable.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>meta single-variable js ts</string>
-        <key>scope</key>
-        <string>token.variable.meta.readwrite.var-single-variable.js, token.variable.meta.readwrite.var-single-variable.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>js ts support function module node</string>
-        <key>scope</key>
-        <string>token.support.function.module.node.js,token.support.function.module.node.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>js ts template-expression begin,end</string>
-        <key>scope</key>
-        <string>token.string.template.expression.template-expression.begin.js,token.string.template.expression.template-expression.end.js,token.string.template.expression.template-expression.begin.ts,token.string.template.expression.template-expression.end.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>js ts template expression punctuation</string>
-        <key>scope</key>
-        <string>token.string.template.expression.punctuation.js,token.string.template.expression.punctuation.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>js ts template expression property</string>
-        <key>scope</key>
-        <string>token.string.template.expression.variable.property.js,token.string.template.expression.variable.property.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>js ts template expression variable</string>
-        <key>scope</key>
-        <string>token.string.template.expression.variable.js,token.string.template.expression.variable.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>token string detected-link</string>
-        <key>scope</key>
-        <string>token.string.detected-link.js, token.string.detected-link.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#87CEFA</string>
-        </dict>
-      </dict>-->
-      <!-- Typescript/javascript:END -->
+      <!-- javascript:END -->
       <!-- css -->
       <dict>
         <key>name</key>
@@ -1243,41 +1189,6 @@
         </dict>
       </dict>
       <!-- sass:END -->
-      <!-- react(jsx, tsx) -->
-      <dict>
-        <key>name</key>
-        <string>tsx, jsx string</string>
-        <key>scope</key>
-        <string>token.tsx.string, token.jsx.string, token.js.string.tag.embedded</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#00B058</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>tsx, jsx string</string>
-        <key>scope</key>
-        <string>token.js.operator.tag.assignment</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>tsx, jsx type declaration</string>
-        <key>scope</key>
-        <string>token.tsx.this, token.tsx.boolean, toke.tsx.primitive, token.js.tag.embedded.boolean, token.js.tag.embedded.primitive, token.js.tag.embedded.this</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#4271AE</string>
-        </dict>
-      </dict>
-      <!-- react:end -->
       <!-- C# -->
       <dict>
         <key>name</key>
