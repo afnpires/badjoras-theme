@@ -1047,20 +1047,9 @@
       <!-- C# -->
       <dict>
         <key>name</key>
-        <string>cs namespace</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.cs.namespace.entity.name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>cs class</string>
-        <key>scope</key>
-        <string>token.cs.namespace.class.storage</string>
+        <string>entity.name.type.class.cs, storage.type.cs</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1069,9 +1058,20 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>cs class</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.cs.namespace.class.storage.modifier, token.cs.namespace.class.type.storage</string>
+        <string>entity.name.variable.parameter.cs</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>constant.language.boolean.false.cs, constant.language.boolean.false.cs</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1080,13 +1080,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>cs method</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.cs.namespace.entity.method.function, token.cs.namespace.entity.method.method-call</string>
+        <string>keyword.operator.assignment.cs, keyword.operator.logical.cs, keyword.operator.comparison.cs, keyword.operator.arrow.cs, keyword.operator.arithmetic.cs</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B294BB</string>
+          <string>#DE935F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>typescript decorator</string>
+        <key>scope</key>
+        <string>entity.name.type.namespace.cs</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C5C8C6</string>
         </dict>
       </dict>
       <!-- C#:END -->
