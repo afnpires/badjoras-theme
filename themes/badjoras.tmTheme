@@ -976,67 +976,23 @@
         </dict>
       </dict>
       <!-- javascript:END -->
-      <!-- css -->
+      <!-- css/less/sass -->
       <dict>
         <key>name</key>
-        <string>Support type</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>support.constant.font-name.css</string>
+        <string>entity.other.attribute-name.class.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FFFFFF</string>
+          <string>#D2945D</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>rgb-value</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>rgb-value, inline-color-decoration rgb-value, less rgb-value</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.css.attribute-name.class, token.css.attribute-name.class.property-list</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F0C674</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.variable.css.punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.css.entity.name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.css.property-name, token.css.property-value.name</string>
+        <string>entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1045,31 +1001,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>sass selector</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.css.property-list.punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.css.property-list.parent-selector</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#CC6666</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.css.property-list.pseudo-class, token.css.attribute-name.pseudo-element</string>
+        <string>entity.other.attribute-name.parent-selector.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1078,9 +1012,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>sass selector</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.css.property-value.numeric, token.css.property-value.unit</string>
+        <string>meta.property-list.css constant.numeric.css, meta.property-value.css constant.numeric.css, meta.property-list.css keyword.other.unit.css, meta.property-value.css keyword.other.unit.css, meta.property-list.css support.constant.property-value.css, meta.property-value.css support.constant.property-value.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1089,130 +1023,27 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>sass selector</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.css.property-list.terminator</string>
+        <string>variable.other.less</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C5C8C6</string>
+          <string>#B294BB</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>sass selector</string>
+        <string>typescript decorator</string>
         <key>scope</key>
-        <string>token.css.property-list.url</string>
+        <string>entity.name.tag.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#87CEFA</string>
+          <string>#CC6666</string>
         </dict>
       </dict>
-      <!-- css:END -->
-      <!-- less -->
-      <dict>
-        <key>name</key>
-        <string>less selector</string>
-        <key>scope</key>
-        <string>token.variable.less</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <!-- less:END -->
-      <!-- sass -->
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.selector.scss</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#e06c75</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.variable.scss</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.variable.scss.punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.scss.entity.name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.scss.property-name</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#4271AE</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.scss.property-list.punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DE935F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.scss.property-value.numeric, token.scss.property-value.unit</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F0C674</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>sass selector</string>
-        <key>scope</key>
-        <string>token.scss.property-list.terminator</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C5C8C6</string>
-        </dict>
-      </dict>
-      <!-- sass:END -->
+      <!-- css/less/sass:END -->
       <!-- C# -->
       <dict>
         <key>name</key>
