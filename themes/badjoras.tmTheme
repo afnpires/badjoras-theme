@@ -23,6 +23,8 @@
           <string>#2c323c</string>
           <key>selection</key>
           <string>#373B41</string>
+          <key>linkForeground</key>
+          <string>#87CEFA</string>
         </dict>
       </dict>
       <dict>
@@ -438,7 +440,7 @@
         <key>name</key>
         <string>Element tag</string>
         <key>scope</key>
-        <string>entity.name.tag.localname.xml, entity.name.tag.xml, entity.name.tag.html, meta.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html</string>
+        <string>keyword.other.doctype.xml, entity.name.tag.localname.xml, entity.name.tag.xml, entity.name.tag.html, meta.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -493,11 +495,22 @@
         <key>name</key>
         <string>Element tag</string>
         <key>scope</key>
-        <string>punctuation.separator.namespace.xml</string>
+        <string>punctuation.separator.namespace.xml, variable.language.documentroot.xml</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#D2945D</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>meta.tag.sgml.doctype.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00B058</string>
         </dict>
       </dict>
       <!-- GIT Commit -->
