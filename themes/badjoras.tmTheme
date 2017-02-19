@@ -409,6 +409,30 @@
         </dict>
       </dict>
       <!-- MARKDOWN:END -->
+      <!-- cshtml -->
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>section.embedded.begin.cshtml keyword.control.cshtml, section.embedded.source.cshtml punctuation.section.embedded.begin.cshtml keyword.control.cshtml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0C674</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Element tag</string>
+        <key>scope</key>
+        <string>section.embedded.source.cshtml entity.name.tag.script.html, section.embedded.source.cshtml keyword.control.cshtml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CC6666</string>
+        </dict>
+      </dict>
+      <!-- cshtml:END -->
       <!-- XML/HTML -->
       <dict>
         <key>name</key>
