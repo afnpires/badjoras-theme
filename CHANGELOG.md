@@ -3,9 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [x.x.x] = 2017/02/18
+## [0.3.0] = 2017/02/19
+### Added
+- Git commit syntax coloring
 ### Changed
 - link to marketplace in README file
+### Fixed
+- VsCode 1.9.x compability
 
 ## [0.2.0] - 2017/01/28
 - Fix ternary operators coloring

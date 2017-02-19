@@ -1,8 +1,8 @@
 {
     "name": "badjoras-theme",
-    "displayName": "badjoras",
+    "displayName": "badjoras theme",
     "description": "Yet another theme",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "afnpires",
     "license": "MIT",
     "author": {
@@ -17,7 +17,7 @@
         "url": "https://github.com/afnpires/badjoras-theme/issues"
     },
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^1.9.0"
     },
     "categories": [
         "Themes"
