@@ -700,7 +700,7 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>cast.expr.ts, keyword.operator.optional.ts, keyword.operator.logical.ts, keyword.operator.assignment.compound.ts, punctuation.separator.key-value.ts, keyword.operator.ternary.ts, storage.type.function.arrow.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, keyword.operator.relational.ts, keyword.operator.comparison.ts, keyword.operator.arithmetic.ts, keyword.operator.increment.ts, keyword.operator.type.ts, storage.type.class.jsdoc, keyword.operator.spread.ts</string>
+        <string>cast.expr.ts, keyword.operator.optional.ts, keyword.operator.logical.ts, keyword.operator.assignment.compound.ts, punctuation.separator.key-value.ts, keyword.operator.ternary.ts, storage.type.function.arrow.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, keyword.operator.relational.ts, keyword.operator.comparison.ts, keyword.operator.arithmetic.ts, keyword.operator.increment.ts, keyword.operator.decrement.ts, keyword.operator.type.ts, storage.type.class.jsdoc, keyword.operator.spread.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
