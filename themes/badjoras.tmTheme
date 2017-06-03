@@ -689,7 +689,7 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>meta.brace.round.ts, string.template.ts punctuation.accessor.ts, meta.decorator.ts meta.object-literal.key.ts, meta.decorator.ts meta.brace.square.ts, meta.decorator.ts punctuation.definition.block.ts, meta.decorator.ts punctuation.separator.comma.ts, meta.decorator.ts punctuation.accessor.ts, cast.expr.ts punctuation.accessor.ts, cast.expr.ts meta.brace.square.ts</string>
+        <string>meta.brace.round.ts, string.template.ts punctuation.accessor.ts, meta.decorator.ts meta.object-literal.key.ts, meta.decorator.ts meta.brace.square.ts, meta.decorator.ts punctuation.definition.block.ts, meta.decorator.ts punctuation.separator.comma.ts, meta.decorator.ts punctuation.accessor.ts, cast.expr.ts punctuation.accessor.ts, cast.expr.ts meta.brace.square.ts, meta.brace.square.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -722,7 +722,7 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>meta.class.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts variable.other.readwrite.ts</string>
+        <string>meta.class.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts variable.other.readwrite.ts, string.template.ts support.variable.property.dom.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -755,7 +755,7 @@
         <key>name</key>
         <string>typescript decorator</string>
         <key>scope</key>
-        <string>variable.other.constant.ts, variable.other.constant.property.ts</string>
+        <string>variable.other.constant.ts, variable.other.constant.property.ts, support.constant.json.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
