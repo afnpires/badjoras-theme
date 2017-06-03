@@ -17,7 +17,7 @@
         "url": "https://github.com/afnpires/badjoras-theme/issues"
     },
     "engines": {
-        "vscode": "^1.9.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
         "Themes"
@@ -35,12 +35,10 @@
         "theme": "dark"
     },
     "contributes": {
-        "themes": [
-            {
-                "label": "Badjoras",
-                "uiTheme": "vs-dark",
-                "path": "./themes/badjoras.tmTheme"
-            }
-        ]
+        "themes": [{
+            "label": "Badjoras",
+            "uiTheme": "vs-dark",
+            "path": "./themes/badjoras.json"
+        }]
     }
 }
