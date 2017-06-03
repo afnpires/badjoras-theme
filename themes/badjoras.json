@@ -14,8 +14,7 @@
         "sideBar.background": "#1d1f21",
         "titleBar.activeForeground": "#1d1f21"
     },
-    "tokenColors": [
-        {
+    "tokenColors": [{
             "settings": {
                 "foreground": "#c5c8c6ff",
                 "background": "#1d1f21ff"
@@ -23,7 +22,12 @@
         },
         {
             "name": "Comments",
-            "scope": "comment, punctuation.definition.comment, token.meta.structure.dictionary.punctuation.comment, token.meta.structure.dictionary.comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "token.meta.structure.dictionary.punctuation.comment",
+                "token.meta.structure.dictionary.comment"
+            ],
             "settings": {
                 "foreground": "#90EE90",
                 "fontStyle": "italic"
@@ -38,14 +42,31 @@
         },
         {
             "name": "Operators",
-            "scope": "meta.keyword.operator, meta.keyword.operator.logical, meta.keyword.operator.ternary",
+            "scope": [
+                "meta.keyword.operator",
+                "meta.keyword.operator.logical",
+                "meta.keyword.operator.ternary"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
             "name": "Keywords",
-            "scope": "keyword, meta.this, constant.boolean, token.meta.primitive, keyword.control, token.package.keyword, storage, token.storage, token.storage, token.keyword.new, meta.null, meta.undefined, meta.keyword.delete",
+            "scope": [
+                "keyword",
+                "meta.this",
+                "constant.boolean",
+                "token.meta.primitive",
+                "keyword.control",
+                "token.package.keyword",
+                "storage",
+                "token.storage",
+                "token.keyword.new",
+                "meta.null",
+                "meta.undefined",
+                "meta.keyword.delete"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
@@ -66,14 +87,24 @@
         },
         {
             "name": "Functions",
-            "scope": "entity.name.function, meta.require, support.function.any-method, keyword.other.special-method",
+            "scope": [
+                "entity.name.function",
+                "meta.require",
+                "support.function.any-method",
+                "keyword.other.special-method"
+            ],
             "settings": {
                 "foreground": "#B294BB"
             }
         },
         {
             "name": "Classes",
-            "scope": "entity.name.type.namespace, entity.name.type.class, entity.name.class.identifier.namespace.type, meta.support.builtin",
+            "scope": [
+                "entity.name.type.namespace",
+                "entity.name.type.class",
+                "entity.name.class.identifier.namespace.type",
+                "meta.support.builtin"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
@@ -186,7 +217,11 @@
         },
         {
             "name": "parameter function",
-            "scope": "function.parameter, token.variable.method.parameters.parameter, token.variable.class.parameter.arrow",
+            "scope": [
+                "function.parameter",
+                "token.variable.method.parameters.parameter",
+                "token.variable.class.parameter.arrow"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
@@ -199,7 +234,7 @@
             }
         },
         {
-            "name": "brace function",
+            "name": "Markdown Italic",
             "scope": "markup.italic.markdown",
             "settings": {
                 "foreground": "#DE935F",
@@ -207,7 +242,7 @@
             }
         },
         {
-            "name": "brace function",
+            "name": "Markdown bold",
             "scope": "markup.bold.markdown",
             "settings": {
                 "foreground": "#DE935F",
@@ -215,92 +250,136 @@
             }
         },
         {
-            "name": "brace function",
+            "name": "Markdown code block fences language",
             "scope": "fenced_code.block.language",
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
-            "name": "brace function",
-            "scope": "meta.separator.markdown, markup.inline.raw.markdown, markup.fenced_code.block.markdown",
+            "name": "markdown code block fences",
+            "scope": [
+                "meta.separator.markdown",
+                "markup.inline.raw.markdown",
+                "markup.fenced_code.block.markdown"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
-            "name": "brace function",
-            "scope": "markup.heading.${1/(#)(#)?(#)?(#)?(#)?(#)?/${6:?6:${5:?5:${4:?4:${3:?3:${2:?2:1}}}}}/}.markdown, beginning.punctuation.definition.list.markdown",
+            "name": "mardown hwading",
+            "scope": [
+                "markup.heading.${1/(#)(#)?(#)?(#)?(#)?(#)?/${6:?6:${5:?5:${4:?4:${3:?3:${2:?2:1}}}}}/}.markdown",
+                "beginning.punctuation.definition.list.markdown"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
         },
         {
-            "name": "brace function",
+            "name": "markdown paragraph",
             "scope": "meta.paragraph.markdown",
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
-            "name": "brace function",
-            "scope": "markup.quote.markdown, markup.quote.markdown meta.paragraph.markdown, punctuation.definition.metadata.markdown",
+            "name": "markdown quote",
+            "scope": [
+                "markup.quote.markdown",
+                "markup.quote.markdown meta.paragraph.markdown",
+                "punctuation.definition.metadata.markdown"
+            ],
             "settings": {
                 "foreground": "#FFFFFF"
             }
         },
         {
-            "name": "brace function",
+            "name": "markdown link",
             "scope": "meta.link.inline.markdown",
             "settings": {
                 "foreground": "#87CEFA"
             }
         },
         {
-            "name": "brace function",
-            "scope": "string.other.link.title.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown",
+            "name": "markdown link string",
+            "scope": [
+                "string.other.link.title.markdown",
+                "punctuation.definition.string.begin.markdown",
+                "punctuation.definition.string.end.markdown"
+            ],
             "settings": {
                 "foreground": "#00B058"
             }
         },
         {
-            "name": "Element tag",
-            "scope": "section.embedded.begin.cshtml keyword.control.cshtml, section.embedded.source.cshtml punctuation.section.embedded.begin.cshtml keyword.control.cshtml",
+            "name": "cshtml Element tag",
+            "scope": [
+                "section.embedded.begin.cshtml keyword.control.cshtml",
+                "section.embedded.source.cshtml punctuation.section.embedded.begin.cshtml keyword.control.cshtml"
+            ],
             "settings": {
                 "foreground": "#F0C674"
             }
         },
         {
-            "name": "Element tag",
-            "scope": "section.embedded.source.cshtml entity.name.tag.script.html, section.embedded.source.cshtml keyword.control.cshtml",
+            "name": "cshtaml Element tag",
+            "scope": [
+                "section.embedded.source.cshtml entity.name.tag.script.html",
+                "section.embedded.source.cshtml keyword.control.cshtml"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
-            "name": "Element tag",
-            "scope": "keyword.other.doctype.xml, entity.name.tag.localname.xml, entity.name.tag.xml, entity.name.tag.html, meta.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html",
+            "name": "xml/html Element tag",
+            "scope": [
+                "keyword.other.doctype.xml",
+                "entity.name.tag.localname.xml",
+                "entity.name.tag.xml",
+                "entity.name.tag.html",
+                "meta.tag.block.any.html",
+                "entity.name.tag.inline.any.html",
+                "entity.name.tag.block.any.html",
+                "entity.name.tag.other.html"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
-            "name": "tag",
-            "scope": "punctuation.definition.tag.xml, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.tag.block.any.html",
+            "name": "xml/html tag",
+            "scope": [
+                "punctuation.definition.tag.xml",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "meta.tag.block.any.html"
+            ],
+            "settings": {
+                "foreground": "#C5C8C6"
+            }
+        },
+        {
+            "name": "xml/html Element tag",
+            "scope": [
+                "text.html.basic",
+                "text.xml"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "Element tag",
-            "scope": "text.html.basic, text.xml",
-            "settings": {
-                "foreground": "#C5C8C6"
-            }
-        },
-        {
-            "name": "Element tag",
-            "scope": "punctuation.definition.entity.html, constant.character.entity.html, constant.character.entity.xml, punctuation.definition.constant.xml",
+            "scope": [
+                "punctuation.definition.entity.html",
+                "constant.character.entity.html",
+                "constant.character.entity.xml",
+                "punctuation.definition.constant.xml"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
@@ -314,7 +393,10 @@
         },
         {
             "name": "Element tag",
-            "scope": "punctuation.separator.namespace.xml, variable.language.documentroot.xml",
+            "scope": [
+                "punctuation.separator.namespace.xml",
+                "variable.language.documentroot.xml"
+            ],
             "settings": {
                 "foreground": "#D2945D"
             }
@@ -327,8 +409,11 @@
             }
         },
         {
-            "name": "comment",
-            "scope": "comment.line.number-sign.git-commit, punctuation.definition.comment.git-commit",
+            "name": "git comment",
+            "scope": [
+                "comment.line.number-sign.git-commit",
+                "punctuation.definition.comment.git-commit"
+            ],
             "settings": {
                 "foreground": "#5C6370"
             }
@@ -342,14 +427,20 @@
         },
         {
             "name": "comment",
-            "scope": "invalid.illegal.line-too-long.git-commit, markup.deleted.git-commit",
+            "scope": [
+                "invalid.illegal.line-too-long.git-commit",
+                "markup.deleted.git-commit"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
             "name": "comment",
-            "scope": "markup.changed.git-commit, invalid.deprecated.line-too-long.git-commit",
+            "scope": [
+                "markup.changed.git-commit",
+                "invalid.deprecated.line-too-long.git-commit"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
@@ -370,7 +461,15 @@
         },
         {
             "name": "Regular Expressions",
-            "scope": "keyword.operator.or.regexp, punctuation.definition.character-class.regexp, keyword.control.anchor.regexp, constant.character.escape.backslash.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, punctuation.definition.group.regexp",
+            "scope": [
+                "keyword.operator.or.regexp",
+                "punctuation.definition.character-class.regexp",
+                "keyword.control.anchor.regexp",
+                "constant.character.escape.backslash.regexp",
+                "constant.other.character-class.regexp",
+                "constant.other.character-class.set.regexp",
+                "punctuation.definition.group.regexp"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
@@ -384,21 +483,37 @@
         },
         {
             "name": "JSON ponctuation",
-            "scope": "punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.begin.json, punctuation.separator.dictionary.pair.json, punctuation.definition.dictionary.end.json, punctuation.definition.array.begin.json, punctuation.definition.array.end.json, punctuation.separator.array.json",
+            "scope": [
+                "punctuation.definition.dictionary.begin.json",
+                "punctuation.definition.dictionary.begin.json",
+                "punctuation.separator.dictionary.pair.json",
+                "punctuation.definition.dictionary.end.json",
+                "punctuation.definition.array.begin.json",
+                "punctuation.definition.array.end.json",
+                "punctuation.separator.array.json"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "JSON key",
-            "scope": "punctuation.support.type.property-name.begin.json, support.type.property-name.json, punctuation.support.type.property-name.end.json",
+            "scope": [
+                "punctuation.support.type.property-name.begin.json",
+                "support.type.property-name.json",
+                "punctuation.support.type.property-name.end.json"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
             "name": "JSON value",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json, string.quoted.double.json",
+            "scope": [
+                "punctuation.definition.string.begin.json",
+                "punctuation.definition.string.end.json",
+                "string.quoted.double.json"
+            ],
             "settings": {
                 "foreground": "#00B058"
             }
@@ -426,28 +541,69 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.decorator.ts, meta.decorator.ts entity.name.function.ts, constant.language.import-export-all.ts, keyword.operator.type.annotation.ts, keyword.operator.assignment.ts",
+            "scope": [
+                "meta.decorator.ts",
+                "meta.decorator.ts entity.name.function.ts",
+                "constant.language.import-export-all.ts",
+                "keyword.operator.type.annotation.ts",
+                "keyword.operator.assignment.ts"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.brace.round.ts, string.template.ts punctuation.accessor.ts, meta.decorator.ts meta.object-literal.key.ts, meta.decorator.ts meta.brace.square.ts, meta.decorator.ts punctuation.definition.block.ts, meta.decorator.ts punctuation.separator.comma.ts, meta.decorator.ts punctuation.accessor.ts, cast.expr.ts punctuation.accessor.ts, cast.expr.ts meta.brace.square.ts",
+            "scope": [
+                "meta.brace.round.ts",
+                "string.template.ts punctuation.accessor.ts",
+                "meta.decorator.ts meta.object-literal.key.ts",
+                "meta.decorator.ts meta.brace.square.ts",
+                "meta.decorator.ts punctuation.definition.block.ts",
+                "meta.decorator.ts punctuation.separator.comma.ts",
+                "meta.decorator.ts punctuation.accessor.ts",
+                "cast.expr.ts punctuation.accessor.ts",
+                "cast.expr.ts meta.brace.square.ts"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "cast.expr.ts, keyword.operator.optional.ts, keyword.operator.logical.ts, keyword.operator.assignment.compound.ts, punctuation.separator.key-value.ts, keyword.operator.ternary.ts, storage.type.function.arrow.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, keyword.operator.relational.ts, keyword.operator.comparison.ts, keyword.operator.arithmetic.ts, keyword.operator.increment.ts, keyword.operator.type.ts, storage.type.class.jsdoc, keyword.operator.spread.ts",
+            "scope": [
+                "cast.expr.ts",
+                "keyword.operator.optional.ts",
+                "keyword.operator.logical.ts",
+                "keyword.operator.assignment.compound.ts",
+                "punctuation.separator.key-value.ts",
+                "keyword.operator.ternary.ts",
+                "storage.type.function.arrow.ts",
+                "punctuation.definition.template-expression.begin.ts",
+                "punctuation.definition.template-expression.end.ts",
+                "keyword.operator.relational.ts",
+                "keyword.operator.comparison.ts",
+                "keyword.operator.arithmetic.ts",
+                "keyword.operator.increment.ts",
+                "keyword.operator.type.ts",
+                "storage.type.class.jsdoc",
+                "keyword.operator.spread.ts"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "support.type.primitive.ts, variable.language.super.ts, constant.language.boolean.true.ts, constant.language.boolean.false.ts, constant.language.null.ts, constant.language.undefined.ts, variable.language.this.ts",
+            "scope": [
+                "support.type.primitive.ts",
+                "variable.language.super.ts",
+                "constant.language.boolean.true.ts",
+                "constant.language.boolean.false.ts",
+                "constant.language.null.ts",
+                "constant.language.undefined.ts",
+                "variable.language.this.ts"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
@@ -461,7 +617,10 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.class.ts entity.name.type.ts, meta.class.ts variable.other.readwrite.ts",
+            "scope": [
+                "meta.class.ts entity.name.type.ts",
+                "meta.class.ts variable.other.readwrite.ts"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
@@ -475,7 +634,10 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "variable.other.constant.ts, variable.other.constant.property.ts",
+            "scope": [
+                "variable.other.constant.ts",
+                "variable.other.constant.property.ts"
+            ],
             "settings": {
                 "foreground": "#FFFFFF",
                 "fontStyle": "bold"
@@ -490,7 +652,11 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts, meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts, support.class.builtin.ts",
+            "scope": [
+                "meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts",
+                "meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts",
+                "support.class.builtin.ts"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
@@ -504,77 +670,154 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.var.expr.ts meta.var-single-variable.expr.ts variable.other.readwrite.ts, meta.class.ts meta.var.expr.ts variable.other.readwrite.ts, meta.class.ts meta.block.ts variable.other.readwrite.ts, meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.object.ts, meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts, new.expr.ts meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts",
+            "scope": [
+                "meta.var.expr.ts meta.var-single-variable.expr.ts variable.other.readwrite.ts",
+                "meta.class.ts meta.var.expr.ts variable.other.readwrite.ts",
+                "meta.class.ts meta.block.ts variable.other.readwrite.ts",
+                "meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.object.ts",
+                "meta.block.ts meta.objectliteral.ts meta.array.literal.ts variable.other.property.ts",
+                "new.expr.ts meta.objectliteral.ts meta.array.literal.ts variable.other.readwrite.ts"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "string.template.ts constant.character.escape.ts, string.quoted.single.ts constant.character.escape.ts, string.quoted.double.ts constant.character.escape.ts",
+            "scope": [
+                "string.template.ts constant.character.escape.ts",
+                "string.quoted.single.ts constant.character.escape.ts",
+                "string.quoted.double.ts constant.character.escape.ts"
+            ],
             "settings": {
                 "foreground": "#FFFFFF"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "support.variable.object.node.ts, support.type.object.module.ts, support.class.console.ts",
+            "scope": [
+                "support.variable.object.node.ts",
+                "support.type.object.module.ts",
+                "support.class.console.ts"
+            ],
             "settings": {
                 "foreground": "#F0C674"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.decorator.js, meta.decorator.js entity.name.function.js, constant.language.import-export-all.js, keyword.operator.type.annotation.js, keyword.operator.assignment.js",
+            "scope": [
+                "meta.decorator.js",
+                "meta.decorator.js entity.name.function.js",
+                "constant.language.import-export-all.js",
+                "keyword.operator.type.annotation.js",
+                "keyword.operator.assignment.js"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.brace.round.js, string.template.js punctuation.accessor.js, meta.decorator.js meta.object-literal.key.js, meta.decorator.js meta.brace.square.js, meta.decorator.js punctuation.definition.block.js, meta.decorator.js punctuation.separator.comma.js, meta.decorator.js punctuation.accessor.js, cast.expr.js punctuation.accessor.js, cast.expr.js meta.brace.square.js",
+            "scope": [
+                "meta.brace.round.js",
+                "string.template.js punctuation.accessor.js",
+                "meta.decorator.js meta.object-literal.key.js",
+                "meta.decorator.js meta.brace.square.js",
+                "meta.decorator.js punctuation.definition.block.js",
+                "meta.decorator.js punctuation.separator.comma.js",
+                "meta.decorator.js punctuation.accessor.js",
+                "cast.expr.js punctuation.accessor.js",
+                "cast.expr.js meta.brace.square.js"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.tag.js punctuation.definition.block.js, meta.tag.js punctuation.section.embedded.begin.js, meta.tag.js punctuation.section.embedded.end.js, cast.expr.js, keyword.operator.optional.js, keyword.operator.logical.js, keyword.operator.assignment.compound.js, punctuation.separator.key-value.js, keyword.operator.ternary.js, storage.type.function.arrow.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, keyword.operator.relational.js, keyword.operator.comparison.js, keyword.operator.arithmetic.js, keyword.operator.increment.js, keyword.operator.type.js, storage.type.class.jsdoc, keyword.operator.spread.js",
+            "scope": [
+                "meta.tag.js punctuation.definition.block.js",
+                "meta.tag.js punctuation.section.embedded.begin.js",
+                "meta.tag.js punctuation.section.embedded.end.js",
+                "cast.expr.js",
+                "keyword.operator.optional.js",
+                "keyword.operator.logical.js",
+                "keyword.operator.assignment.compound.js",
+                "punctuation.separator.key-value.js",
+                "keyword.operator.ternary.js",
+                "storage.type.function.arrow.js",
+                "punctuation.definition.template-expression.begin.js",
+                "punctuation.definition.template-expression.end.js",
+                "keyword.operator.relational.js",
+                "keyword.operator.comparison.js",
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.type.js",
+                "storage.type.class.jsdoc",
+                "keyword.operator.spread.js"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "support.type.primitive.js, variable.language.super.js, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.js, constant.language.undefined.js, variable.language.this.js",
+            "scope": [
+                "support.type.primitive.js",
+                "variable.language.super.js",
+                "constant.language.boolean.true.js",
+                "constant.language.boolean.false.js",
+                "constant.language.null.js",
+                "constant.language.undefined.js",
+                "variable.language.this.js"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.var.expr.js variable.other.object.js, meta.tag.js keyword.operator.assignment.js, meta.class.js meta.block.js meta.objectliteral.js meta.object.member.js meta.array.literal.js variable.other.readwrite.js, meta.var.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js",
+            "scope": [
+                "meta.var.expr.js variable.other.object.js",
+                "meta.tag.js keyword.operator.assignment.js",
+                "meta.class.js meta.block.js meta.objectliteral.js meta.object.member.js meta.array.literal.js variable.other.readwrite.js",
+                "meta.var.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.export.default.js variable.other.readwrite.js, entity.name.tag.js, variable.other.object.js, meta.class.js entity.name.type.js, entity.name.type.js, meta.class.js variable.other.readwrite.js",
+            "scope": [
+                "meta.export.default.js variable.other.readwrite.js",
+                "entity.name.tag.js",
+                "variable.other.object.js",
+                "meta.class.js entity.name.type.js",
+                "entity.name.type.js",
+                "meta.class.js variable.other.readwrite.js"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "variable.parameter.js, support.variable.property.dom.js",
+            "scope": [
+                "variable.parameter.js",
+                "support.variable.property.dom.js"
+            ],
             "settings": {
                 "foreground": "#F0C674"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "variable.other.constant.js, variable.other.constant.property.js",
+            "scope": [
+                "variable.other.constant.js",
+                "variable.other.constant.property.js"
+            ],
             "settings": {
                 "foreground": "#FFFFFF",
                 "fontStyle": "bold"
@@ -589,7 +832,11 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js, meta.objectliteral.js meta.array.literal.js variable.other.property.js, support.class.builtin.js",
+            "scope": [
+                "meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js",
+                "meta.objectliteral.js meta.array.literal.js variable.other.property.js",
+                "support.class.builtin.js"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
@@ -603,21 +850,36 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "string.template.js constant.character.escape.js, string.quoted.single.js constant.character.escape.js, string.quoted.double.js constant.character.escape.js",
+            "scope": [
+                "string.template.js constant.character.escape.js",
+                "string.quoted.single.js constant.character.escape.js",
+                "string.quoted.double.js constant.character.escape.js"
+            ],
             "settings": {
                 "foreground": "#FFFFFF"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.var.expr.js meta.var-single-variable.expr.js variable.other.readwrite.js, meta.class.js meta.var.expr.js variable.other.readwrite.js, meta.class.js meta.block.js variable.other.readwrite.js, meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.object.js, meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.property.js, new.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js",
+            "scope": [
+                "meta.var.expr.js meta.var-single-variable.expr.js variable.other.readwrite.js",
+                "meta.class.js meta.var.expr.js variable.other.readwrite.js",
+                "meta.class.js meta.block.js variable.other.readwrite.js",
+                "meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.object.js",
+                "meta.block.js meta.objectliteral.js meta.array.literal.js variable.other.property.js",
+                "new.expr.js meta.objectliteral.js meta.array.literal.js variable.other.readwrite.js"
+            ],
             "settings": {
                 "foreground": "#C5C8C6"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "support.variable.object.node.js, support.type.object.module.js, support.class.console.js",
+            "scope": [
+                "support.variable.object.node.js",
+                "support.type.object.module.js",
+                "support.class.console.js"
+            ],
             "settings": {
                 "foreground": "#F0C674"
             }
@@ -645,7 +907,14 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "meta.property-list.css constant.numeric.css, meta.property-value.css constant.numeric.css, meta.property-list.css keyword.other.unit.css, meta.property-value.css keyword.other.unit.css, meta.property-list.css support.constant.property-value.css, meta.property-value.css support.constant.property-value.css",
+            "scope": [
+                "meta.property-list.css constant.numeric.css",
+                "meta.property-value.css constant.numeric.css",
+                "meta.property-list.css keyword.other.unit.css",
+                "meta.property-value.css keyword.other.unit.css",
+                "meta.property-list.css support.constant.property-value.css",
+                "meta.property-value.css support.constant.property-value.css"
+            ],
             "settings": {
                 "foreground": "#F0C674"
             }
@@ -666,7 +935,10 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "entity.name.type.class.cs, storage.type.cs",
+            "scope": [
+                "entity.name.type.class.cs",
+                "storage.type.cs"
+            ],
             "settings": {
                 "foreground": "#CC6666"
             }
@@ -680,14 +952,23 @@
         },
         {
             "name": "typescript decorator",
-            "scope": "constant.language.boolean.false.cs, constant.language.boolean.false.cs",
+            "scope": [
+                "constant.language.boolean.false.cs",
+                "constant.language.boolean.false.cs"
+            ],
             "settings": {
                 "foreground": "#4271AE"
             }
         },
         {
             "name": "typescript decorator",
-            "scope": "keyword.operator.assignment.cs, keyword.operator.logical.cs, keyword.operator.comparison.cs, keyword.operator.arrow.cs, keyword.operator.arithmetic.cs",
+            "scope": [
+                "keyword.operator.assignment.cs",
+                "keyword.operator.logical.cs",
+                "keyword.operator.comparison.cs",
+                "keyword.operator.arrow.cs",
+                "keyword.operator.arithmetic.cs"
+            ],
             "settings": {
                 "foreground": "#DE935F"
             }
